@@ -1,9 +1,149 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="UTF-8"><title>PDFTool</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDFTool – Bill of Materials PDF Merger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .download {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 16px 28px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .download:hover {
+      background: #1d4ed8;
+    }
+
+    .box {
+      background: #f1f5f9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #6b7280;
+      margin: 40px 0 20px;
+    }
+  </style>
+</head>
+
 <body>
+
+<header>
   <h1>PDFTool</h1>
-  <p>GitHub Pages is working.</p>
-  <p><a href="https://github.com/poloroyd00/PDFTool/releases/latest">Download (Releases)</a></p>
+  <p>
+    A lightweight Windows tool that automatically merges a multi-page
+    Bill of Materials (BOM) PDF with a single insert page.
+  </p>
+</header>
+
+<div class="container">
+
+  <a class="download"
+     href="https://github.com/poloroyd00/PDFTool/releases/latest">
+     Download PDFTool (Windows)
+  </a>
+
+  <h2>What does PDFTool do?</h2>
+  <p>
+    PDFTool creates a new PDF where each page of your Bill of Materials
+    is immediately followed by the same insert page.
+  </p>
+
+  <div class="box">
+    <pre>
+Page 1  – BOM page 1
+Page 2  – Insert page
+Page 3  – BOM page 2
+Page 4  – Insert page
+Page 5  – BOM page 3
+Page 6  – Insert page
+    </pre>
+  </div>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Drag & drop interface</li>
+    <li>Automatic page alternation (BOM / insert)</li>
+    <li>Offline usage – no internet required</li>
+    <li>Portable single EXE (no installation)</li>
+    <li>Windows 10 & Windows 11</li>
+  </ul>
+
+  <h2>Privacy & Security</h2>
+  <p>
+    PDFTool works completely offline.
+    No data is collected, stored, or transmitted.
+  </p>
+
+  <div class="box">
+    <strong>Antivirus notice</strong>
+    <p>
+      To keep this project 100% free, the executable is not code-signed.
+      Some antivirus software or Windows Defender may show a warning.
+    </p>
+    <p>
+      The source code is publicly available on GitHub.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  © PDFTool – Free utility for technical documentation
+</footer>
+
 </body>
 </html>
